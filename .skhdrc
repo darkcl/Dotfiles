@@ -4,6 +4,7 @@ cmd - return : osascript -e 'tell application "iTerm2" to create window with def
     || open -b com.googlecode.iTerm2
 alt + shift - return : code -n
 alt + shift - m : open /Applications/Mail.app
+alt + shift - f : open ~
 
 # Tips
 shift + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
