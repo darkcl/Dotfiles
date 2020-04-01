@@ -1,4 +1,4 @@
-# MacOS WM
+# Dotsfile
 
 Fork from https://github.com/enkhee-Osiris/macos_wm
 
@@ -40,15 +40,14 @@ Fork from https://github.com/enkhee-Osiris/macos_wm
 ### Setup
 
 ```sh
-git clone https://github.com/darkcl/macos_wm.git "$HOME/macos_wm"
+git clone https://github.com/darkcl/Dotfiles.git "$HOME/dots"
 ```
 
 Create symlinks.
 
 ```sh
- ln -s "${HOME}/macos_wm/.yabairc" "${HOME}/.yabairc"
- ln -s "${HOME}/macos_wm/.skhdrc" "${HOME}/.skhdrc"
- ln -s "${HOME}/macos_wm/kitty" "${HOME}/.config/kitty"
+ ln -s "${HOME}/dots/.yabairc" "${HOME}/.yabairc"
+ ln -s "${HOME}/dots/.skhdrc" "${HOME}/.skhdrc"
 ```
 
 Copy pecan-style into pecan folder
